@@ -16,3 +16,5 @@ changes to author/editor array implosion to abide by APA format, among a few oth
 adjustments.
 
 I hope it's useful to others.
+
+[1]: http://www.monperrus.net/martin/bibtexbrowser/
