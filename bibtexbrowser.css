@@ -1,0 +1,9 @@
+body {
+	font-family:palatino;
+}
+.articleVolume { font-style:italic; }
+.articleJournal { font-style:italic; }
+.sheader { font-weight:bold; padding-top:20px; }
+.bibitem { padding-left:50px; text-indent:-25px; }
+.chapterBook { font-style:italic; }
+.proceedingsBook { font-style:italic; }
