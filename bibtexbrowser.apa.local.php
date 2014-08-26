@@ -127,6 +127,7 @@ function APABibliographyStyle(&$bibentry) {
   // add the Coin URL
   $result .=  $bibentry->toCoins();
 
-  return $result;}
+  return $result;
+}
 define('BIBLIOGRAPHYSTYLE','APABibliographyStyle');
 ?>
