@@ -5,50 +5,72 @@ body {
 	/*margin: 50px 0 0 100px;*/
 }
 .sectionhead {
-	font-size:14pt;
+	font-size:16pt;
 	font-weight:bold;
 	margin-top:20px;
 }
 .bibline {
 	text-align:justify;
-	font-size:11pt;
+	font-size:10pt;
 }
 .articleVolume { font-style:italic; }
 .articleJournal { font-style:italic; }
-.sheader { font-weight:bold; padding-top:10px; }
-.bibitem { padding-left:50px; text-indent:-25px; }
+.sheader { font-weight:bold; padding-top:11px; }
+.bibitem { 
+	padding-left:50px; 
+	/*text-indent:-25px;*/
+	padding-bottom:10px;
+}
 .chapterBook { font-style:italic; }
 .proceedingsBook { font-style:italic; }
 .biburl {
-	background-color:#333;
+	background-color:#888;
 	padding:1px;
 	font-size:9pt;
+	border-radius:5px;
 }
 a.biburl {
-	color:white !important;
+	color:#ddd !important;
 }
 a:hover.biburl {
-	color:#aae !important;
+	color:#111 !important;
 }
 .doiurl {
 	background-color:#777;
 	padding:1px;
 	font-size:9pt;
+	border-radius:5px;
 }
 a.doiurl {
-	color:white !important;
+	color:#ddd !important;
 }
 a:hover.doiurl {
-	color:#aae !important;
+	color:#111 !important;
 }
 .linkurl {
-	background-color:#559;
+	background-color:#88a;
 	padding:1px;
 	font-size:9pt;
+	border-radius:5px;
 }
 a.linkurl {
-	color:white !important;
+	color:#ddd !important;
 }
 a:hover.linkurl {
-	color:#aae !important;
+	color:#111 !important;
+}
+.type_article {
+	border-left:10px solid green;	
+}
+.type_symposium {
+	border-left:10px solid orange;	
+}
+.type_book {
+	border-left:10px solid red;	
+}
+.type_incollection {
+	border-left:10px solid black;	
+}
+.type_inproceedings {
+	border-left:10px solid blue;	
 }
